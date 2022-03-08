@@ -6,20 +6,6 @@
   <title>
         Homepage
   </title>
-<script>
-    // function goPlay(){
-    //     console.log("in goplay")
-    setTimeout(() => {
-        var x = document.getElementById("myAudio");
-        // function playAudio() {
-        x.play();
-      },
-      1000
-    )
-    // }
-
-
-</script>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
 
