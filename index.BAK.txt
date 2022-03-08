@@ -25,22 +25,26 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 <style>
 
-.center {
+.center-video {
   text-align: center;
   display: block;
   margin-top: 1%;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0px 0px 20px indigo;
+  border-radius: 20px;
+  background: #080808;
+  padding: 10px;
 }
 
 .title {
   font-family: 'Pacifico', cursive;
-  color: #000000;
-  text-shadow: 5px 5px 10px purple;
+  color: #080808;
+  text-shadow: 0px 0px 10px indigo;
   font-size: 300%;
   height: 100%; 
   text-align:center; 
-  width:50%;
+  width: 100%;
 }
 
 
@@ -78,21 +82,21 @@ body {
 	<!--BASTION-->
 
   <iframe
-	class="center"
+	class="center-video"
 	width="640" 
 	height="360" 
-	src="https://www.youtube-nocookie.com/embed/xPo1Uis06bo?	controls=0" frameborder="0" allowfullscreen 	style="border: 20px solid purple">
+	src="https://www.youtube-nocookie.com/embed/xPo1Uis06bo?	controls=0" frameborder="0" allowfullscreen>
   </iframe>
 
 	<!--REIN-->
 
   <iframe
-	class="center"
+	class="center-video"
 	width="640"
 	height="360"
-	src="https://www.youtube-nocookie.com/embed/mro7GykOPY8?	 controls=0" frameborder="0" allowfullscreen
-	style="border: 20px solid purple;">
+	src="https://www.youtube-nocookie.com/embed/mro7GykOPY8?	 controls=0" frameborder="0" allowfullscreen>
   </iframe>
+
 	<!--/VIDEO-->
 </div>
 
