@@ -22,7 +22,7 @@
 </script>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
 <style>
 
 .center-video {
@@ -38,7 +38,9 @@
 }
 
 .title {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico';
+  font-style: cursive;
+  font-display: swap;
   color: #080808;
   text-shadow: 0px 0px 10px indigo;
   font-size: 300%;
@@ -62,10 +64,11 @@
 }
 
 body {
-  height: 100%;
-  margin: 0;
-  background: url(https://raw.githubusercontent.com/Mestaritukki/homepage/main/media/background.jpg) no-repeat      
-  center center fixed;
+	height: 100%;
+	margin: 0;
+	background:url(https://raw.githubusercontent.com/Mestaritukki/homepage/main/media/background.webp)
+	no-repeat      
+  	center center fixed;
 }
 
 </style>
