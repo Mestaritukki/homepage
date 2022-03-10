@@ -55,7 +55,8 @@ iframe {
   height: 20vh;
   font-size: max(100%, 6vw);
   text-align: center;
-  margin-bottom: 10vw;
+  margin-bottom: 5vw;
+  margin-top: -5%;
 }
 
 .radio {
