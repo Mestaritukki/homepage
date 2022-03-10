@@ -2,6 +2,9 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
 
+html, body {touch-action: none;}
+html, body {touch-action: pan-x, pan-y;}
+
 <!--avoid invisible text-->
 @font-face {
   font-family: 'Pacifico';
