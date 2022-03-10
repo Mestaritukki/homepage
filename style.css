@@ -13,11 +13,16 @@ html, body {touch-action: pan-y;}
   font-display: swap;
 }
 
+.topspacing {
+}
+
 .padding {
-  height: 55vw;
-
-
- 
+  height: 53.5vw;
+  max-height: 610px;
+  margin: auto;
+  width: 50vw;
+  min-width: 400px;
+  
 }
 
 .videoWrapper {
@@ -52,6 +57,7 @@ iframe {
   height: 20vh;
   font-size: max(45px, 5vw);
   text-align: center;
+  margin-bottom: 10vw;
 }
 
 .radio {
