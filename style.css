@@ -19,8 +19,7 @@ html, body {touch-action: pan-y;}
 .padding {
   height: 53.5vw;
   max-height: 610px;
-  margin: auto;
-  width: 50vw;
+  position: relative;
   
 }
 
@@ -61,7 +60,7 @@ iframe {
 
 .radio {
   text-align: center;
-  margin-top: 15%;
+  margin-top: 25%;
 
 }
 
