@@ -2,7 +2,9 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
 
+blockquote {
 
+}
 
 <!--avoid invisible text-->
 @font-face {
@@ -40,7 +42,7 @@ iframe {
   font-display: swap;
   color: #080808;
   text-shadow: 0px 0px 10px indigo;
-  font-size: 5vw;
+  font-size: max(30px, 5vw);
   text-align: center; 
 }
 
