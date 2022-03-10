@@ -2,8 +2,7 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
 
-html, body {touch-action: none;}
-html, body {touch-action: pan-y;}
+
 
 <!--avoid invisible text-->
 @font-face {
@@ -41,9 +40,7 @@ iframe {
   font-display: swap;
   color: #080808;
   text-shadow: 0px 0px 10px indigo;
-  font-size: 4vw;
-  width: 100vw;  
-  height: auto;
+  font-size: 5vw;
   text-align: center; 
 }
 
