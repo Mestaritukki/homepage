@@ -2,6 +2,7 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
 
+html, body {touch-action: none;}
 html, body {touch-action: pan-y;}
 
 <!--avoid invisible text-->
@@ -61,7 +62,7 @@ iframe {
 
 .radio {
   text-align: center;
-  margin-top: 25%;
+  
 
 }
 
