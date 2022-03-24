@@ -14,9 +14,6 @@ html, body {touch-action: pan-y;}
   font-display: swap;
 }
 
-.topspacing {
-}
-
 .padding {
   height: 53.5vw;
   max-height: 610px;
@@ -24,35 +21,11 @@ html, body {touch-action: pan-y;}
   
 }
 
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
-
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 5%;
-  right: 5%;
-  width: 90%;
-  height: 90%;
-  max-width: 1000px;
-  max-height: 562.5px;
-}
-
-iframe {
-  box-shadow: 0px 0px 20px indigo;
-  border-radius: 10px;
-  background: #080808;
-  padding: 10px;
-}
-
 .title {
   font-family: 'Pacifico', cursive;
   font-display: swap;
   color: #080808;
-  text-shadow: 0px 0px 20px indigo;
+  text-shadow: 0px 0px 20px darkblue;
   height: 20%;
   font-size: max(100%, 6vw);
   text-align: center;
