@@ -34,6 +34,8 @@ html, body {touch-action: pan-y;}
   position: absolute;
   bottom: 1vh;
   left: 2vw;
+  bottom: 0;
+  margin-bottom: 2vh;
 }
 
 .bottomtext {
@@ -51,7 +53,6 @@ html, body {touch-action: pan-y;}
   font-family: 'Pacifico', 'cursive';
   font-size: 200%;
   color: #dbdbdb;
-  text-align: center;
   position: absolute;
   right: 35px;
   bottom: 0;
