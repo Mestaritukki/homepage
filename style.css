@@ -46,6 +46,16 @@ html, body {touch-action: pan-y;}
   bottom: 0;
 }
 
+.auth {
+  font-family: 'Pacifico', 'cursive';
+  font-size: 200%;
+  color: white;
+  text-align: center;
+  position: absolute;
+  right: 35px;
+  bottom: 0;
+}
+
 
 body {
   background:url(https://raw.githubusercontent.com/Mestaritukki/homepage/main/media/jarvi3.webp)
