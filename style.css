@@ -43,7 +43,7 @@ html, body {touch-action: pan-y;}
   text-align: center;
   position: fixed;
   left: 2%;
-  bottom: 2%;
+  bottom: min(max(20px), 5%);
   text-shadow: 0px 0px 10px #0e003e;
 }
 
