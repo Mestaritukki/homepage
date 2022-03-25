@@ -33,8 +33,35 @@ html, body {touch-action: pan-y;}
   position: absolute;
   bottom: 0;
   left: 0;
-  
+  background-color: #080808;
+}
 
+.summer {
+  font-family: 'Pacifico';
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 300px;
+  bottom: -14px;
+}
+
+.border1 {
+  background-color: #161616;
+  width: 100%;
+  height: 43px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.border2 {
+  background-color: #080808;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 body {
