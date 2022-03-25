@@ -33,7 +33,7 @@ html, body {touch-action: pan-y;}
 .radio {
   position: absolute;
   bottom: 1vh;
-  left: 2%;
+  left: 2vw;
 }
 
 .bottomtext {
@@ -42,8 +42,8 @@ html, body {touch-action: pan-y;}
   color: #dbdbdb;
   text-align: center;
   position: fixed;
-  left: 2%;
-  bottom: 3vh;
+  left: 3vw;
+  bottom: 2vh;
   text-shadow: 0px 0px 10px #0e003e;
 }
 
