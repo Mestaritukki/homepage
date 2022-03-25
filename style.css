@@ -43,7 +43,7 @@ html, body {touch-action: pan-y;}
   text-align: center;
   position: absolute;
   left: 100px;
-  bottom: 55;
+  bottom: 55px;
 }
 
 .auth {
