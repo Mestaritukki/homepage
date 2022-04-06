@@ -3,11 +3,10 @@
 @font-face {
     font-family: 'ice';
     src: url('https://raw.githubusercontent.com/Mestaritukki/homepage/main/media/font/ice/rubikwetpaint-regular-webfont.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/Mestaritukki/homepage/main/media/font/ice/rubikwetpaint-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
 html, body {touch-action: none;}
 html, body {touch-action: pan-y;}
 
@@ -76,7 +75,7 @@ body {
 }
          
 h2{
-  font-family: ice, sans-serif;
+  font-family: 'ice', sans-serif;
   text-align: center;
   color: #00000;
   font-size: min(max(4vw), 50px);
