@@ -1,0 +1,90 @@
+<style>
+
+@font-face {
+    font-family: 'Ice';
+    src: url('../media/font/ice/rubikwetpaint-regular-webfont.woff2') format('woff2'),
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body {touch-action: none;}
+html, body {touch-action: pan-y;}
+
+body {
+  background: url(../media/login_screen.webp)
+  center center fixed no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #080808;
+  padding-top: 40px;
+  padding-bottom: 40px;  
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  color: #017572;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+         
+.form-signin .checkbox {
+  font-weight: normal;
+}
+         
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 9px;
+  font-size: 16px;
+  text-align: center;
+}
+         
+.form-signin .form-control:focus {
+  z-index: 2
+
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-color:#000000;
+}
+         
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-color:#000000;
+}
+
+.login {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  text-align: center;
+}
+         
+h2{
+  font-family: 'ice', sans-serif;
+  text-align: center;
+  color: #e1e4f5;
+  -webkit-text-stroke: 2px #1027a4;
+  font-size: min(max(4vw), 50px);
+  margin-top: min(max(100px), 20%);
+}
+
+.link {
+ text-align: center;
+}
+
+</style>
