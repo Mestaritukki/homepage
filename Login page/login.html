@@ -1,0 +1,52 @@
+<html lang = "en">
+   
+   <head>
+      <title>Login</title>
+      <link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="..\media\favicon\leaf16.png">
+   </head>
+	
+   <body>
+      
+      <h2>Kirjaudu sisään</h2> 
+      <div class = "container form-signin">
+         
+         <?php
+            $msg = '';
+            
+            if (isset($_POST['login']) && !empty($_POST['username']) 
+               && !empty($_POST['password'])) {
+				
+               if ($_POST['username'] == 'mestari' && 
+                  $_POST['password'] == 'tukki') {
+                  $_SESSION['valid'] = true;
+                  $_SESSION['timeout'] = time();
+                  $_SESSION['username'] = 'tutorialspoint';
+                  
+                  echo 'You have entered valid use name and password';
+               }else {
+                  $msg = 'Wrong username or password';
+               }
+            }
+         ?>
+      </div> <!-- /container -->
+      
+      <div class = "container">
+      
+         <form class = "form-signin" role = "form" 
+            action = "<?php echo htmlspecialchars($_SERVER['PHP_SELF']); 
+            ?>" method = "post">
+            <h4 class = "form-signin-heading"><?php echo $msg; ?></h4>
+            <input type = "text" class = "form-control" 
+               name = "username" placeholder = "username" 
+               required autofocus></br>
+            <input type = "password" class = "form-control"
+               name = "password" placeholder = "password" required>
+         </form>
+         
+      </div> 
+
+	<button class="login">Login</button>      
+
+   </body>
+</html>
