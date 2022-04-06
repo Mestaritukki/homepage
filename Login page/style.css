@@ -1,5 +1,12 @@
 <style>
 
+@font-face {
+    font-family: 'Ice';
+    src: url('../media/font/ice/rubikwetpaint-regular-webfont.woff2') format('woff2'),
+    font-weight: 400;
+    font-style: normal;
+}
+
 html, body {touch-action: none;}
 html, body {touch-action: pan-y;}
 
@@ -70,10 +77,14 @@ body {
 h2{
   font-family: 'ice', sans-serif;
   text-align: center;
-  color: #fff;
-  -webkit-text-stroke: 2px black;
+  color: #e1e4f5;
+  -webkit-text-stroke: 2px #1027a4;
   font-size: min(max(4vw), 50px);
   margin-top: min(max(100px), 20%);
+}
+
+.link {
+ text-align: center;
 }
 
 </style>
