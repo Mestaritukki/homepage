@@ -58,9 +58,9 @@ html, body {touch-action: pan-y;}
   bottom: 0;
 }
 
-
+/*https://raw.githubusercontent.com/Mestaritukki/homepage/main/media/background-image.webp*/
 body {
-  background:url(https://raw.githubusercontent.com/Mestaritukki/homepage/main/media/background-image.webp)
+  background:url(https://www.mestaritukki.com/media/background-image.webp)
   center center fixed no-repeat;
   background-attachment: fixed;
   background-size: cover;
